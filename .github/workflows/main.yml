@@ -50,9 +50,9 @@ jobs:
           name: .net-app
       
       - name: login to Azure
-        uses: azure/login@v1
+        uses: azure/krizal-admin@KrizalLLP.onmicrosoft.com
         with:
-          creds: ${{secrets.AZURE_CREDENTIALS}}
+          creds: C9@&4a0PJmzPi!l
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
